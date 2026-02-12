@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+int a;
+printf("Enter distance in kilometres");
+scanf("%d " ,&a);
+int b = 0.621*a;
+printf("The distance is %d in miles",&b);
+return 0;
+}
